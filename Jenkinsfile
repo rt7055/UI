@@ -1,10 +1,7 @@
 pipeline {
 	
 	agent {
-		docker {
-			image 'jenkins-test:1.0.0'
-                        
-		}
+		jenkins-slave
 	}
 	
 stages{
