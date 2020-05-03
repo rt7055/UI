@@ -1,7 +1,7 @@
 pipeline {
 	
-agent any 
-
+agent jenkins-agent-1
+	
 stages{
 
 	stage("Build") {
