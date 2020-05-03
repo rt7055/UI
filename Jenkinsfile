@@ -1,6 +1,6 @@
 pipeline {
 	
-agent jenkins-agent-1
+agent any
 	
 stages{
 
